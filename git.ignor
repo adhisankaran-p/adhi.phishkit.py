@@ -1,0 +1,14 @@
+data/
+bin/
+config.json
+*.db
+*.db-journal
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
