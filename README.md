@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.png" alt="adhi.phishkit" width="820">
+<img src="assets/hero.png" alt="adhi.phishkit.py" width="820">
 
 **Ultimate educational phishing toolkit — 210+ replica login kits, one file, zero dependencies.**
 
